@@ -6,11 +6,16 @@
     --color-green: #37af65;
 }
 
+#name, #email, #comments, #number {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
-#title {
+#title, #submit {
     color: #0d476a;
 }
 
@@ -172,7 +177,7 @@ form {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background: linear-gradient( 115deg, rgba(34, 193, 195, 0.8), rgba(224, 122, 9, 0.7));
+    background: linear-gradient(to right, #aaffa9, #11ffbd);  
     color: inherit;
     border-radius: 2px;
     cursor: pointer;
@@ -180,4 +185,5 @@ form {
 
 #submit {
     font-size: 1.7rem;
+    border-radius: 50px;
 }
